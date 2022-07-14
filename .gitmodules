@@ -1,0 +1,4 @@
+[submodule "WebsiteExample"]
+	path = WebsiteExample
+	url = https://github.com/arestivo/chinook
+	branch = master
