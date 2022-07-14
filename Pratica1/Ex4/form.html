@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <label for="name">Name </label> 
+            <input type="text" id="name" name="name" required="required">
+            
+            <br><br>
+            
+            <label for="age">Age </label>
+            <input type="radio" name="age"  value="less than 18">&lt;18
+            <input type="radio" name="age"  value="19-35">19-35
+            <input type="radio" name="age"  value="36-48">36-48
+            <input type="radio" name="age" id="age" value="greater than 49">&gt;49
+            
+            <br><br>
+            
+            <label for="profession">Profession </label>
+            <input name="prof" list="profession">
+            <datalist id="profession">
+              <option value="Lawyer">
+              <option value="Engineer">
+              <option value="Doctor">
+              <option value="Chef"> 
+            </datalist>
+
+            <br><br>
+
+            <label for="country">Country </label>
+            <select name="Country" id="country" required >
+                <option value="">--Select a country--</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Spain">Spain</option>
+                <option value="France">France</option>
+                <option value="Great Britain">Great Britain</option>
+                <option value="Other">Other</option>
+            </select>
+            
+            <br><br>
+            
+            <label for="Interests">Interests </label>
+            <input type="checkbox" name="Interests" value="knitting" id="Interests">Knitting
+            <input type="checkbox" name="Interests" value="Exercise" >Exercise
+            <input type="checkbox" name="Interests" value="Frisbee" >Frisbee
+            <input type="checkbox" name="Interests" value="Pottery" >Pottery
+            <input type="checkbox" name="Interests" value="Other" >Other
+
+            <br><br>
+
+            <label for="text1">How did you find our website? </label>
+            <br>
+            <textarea name="input" id="text1" cols="30" rows="10"></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </body>
+</html>

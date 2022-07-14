@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:300,200');
+*{
+    font-family: Poppins;
+    text-align: justify;
+}
+#f1{
+    background-color: #2A2F33;
+    color: #FFFF; 
+}
+
+div a:first-child{
+    border-right: 1em;
+    border-color: white;
+}
+
+#hh1{
+    background-color: #046DD5;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0%;
+}
+
+#hh1 a{
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+}
+
+article footer{
+    background-color: pink;
+    padding: 1em;
+    color: white;
+}
+
+article footer a {
+    color: inherit;
+}
+
+section #first{
+    background-image: url(https://picsum.photos/600/300?business);
+    position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block ;
+    margin: 1em 0px;
+    width: 60em;
+    height: 30em;
+}
+
+
+section #second{
+    background-image: url(https://picsum.photos/600/300?city);
+    position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block ;
+    margin: 1em 0px;
+    width: 60em;
+    height: 30em;
+
+}
+
+section #third{
+    background-image: url(https://picsum.photos/600/300?nature);
+    position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block ;
+    margin: 1em 0px;
+    width: 60em;
+    height: 30em;
+}
+
+
+section #fourth{
+    background-image: url(https://picsum.photos/600/300?transport);
+    position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block ;
+    margin: 1em 0px;
+    width: 60em;
+    height: 30em;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+#related {
+    background-color: #2A2F33;
+    color: white;
+    border: 10px 10px 10px 10px;
+}
+
+
+#related a{
+    background-color: #2A2F33;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#news article header h1 a{
+    text-align: left;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 1em;
+    text-shadow: 2px 2px 5px #000000;
+    
+}
+
+section article p:nth-child(2):first-letter {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+li{
+    padding: 1em;
+    list-style-type:none;
+    text-align: center;
+}
+
+li a{
+    text-decoration: none;
+    color: black; 
+    text-align: center;
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+nav{
+    display: grid;
+}
+
+
+body {
+    display: grid;
+    max-width: 60em;
+    background-color: white;
+
+}
+
+nav ul li:nth-child(1){
+    border-style: solid;
+    border-color: aqua white white white;
+}
+
+nav ul li:nth-child(2){
+    border-style: solid;
+    border-color: pink white white white;
+}
+
+nav ul li:nth-child(3){
+    border-style: solid;
+    border-color: firebrick white white white;
+}
+
+nav ul li:nth-child(4){
+    border-style: solid;
+    border-color: gold white white white;
+}
+nav ul li:nth-child(5){
+    border-style: solid;
+    border-color: hotpink white white white;
+}
+
+nav ul li:nth-child(6){
+    border-style: solid;
+    border-color: lightgreen white white white;
+}
+
+ul{
+    
+    padding: 0%;
+    
+}
